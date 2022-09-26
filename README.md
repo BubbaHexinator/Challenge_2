@@ -47,7 +47,7 @@ The last thing you need to do is to make sure you have quesiton and fire dependc
 
 Please install *pip install questionary* and *pip install fire*. You need these dependencies in order to run the app.py. As far as Pandas goes, the user should already have Pandas installed however, if Pandas is not installed, please type *pip instal pandas*
 
-Asumming you have python and anaconda installed your next step is to activate your dev environment. First go ahead and open the Gitbash terminal in VS code. Type *conda activate* and then *conda activate dev* . ![Activate Dev environment.](images/conda_activate_dev.png)
+Asumming you have python and anaconda installed your next step is to activate your dev environment. First go ahead and open the Gitbash terminal in VS code. Type *conda activate* and then *conda activate dev* . ![Activate Dev environment.](/Challenge_2/loan_qualifier_app/Images/conda_activate_dev.png)
 This will let the computer know that you want to be in a developer enviroment in your terminal. As a developer you can runs scripts of code, import library and dependencies and much more.  
 
 Next you will need two libraries installed in order to run app.py; Fire and Questionary. Take a look at the screen shot below to see how I installed them in order.  
