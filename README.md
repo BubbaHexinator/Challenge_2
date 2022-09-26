@@ -15,34 +15,23 @@
 
 USER-STORY
 As a application manager for a local fintech startup I wanted to create an app that would allow borrowers the ability 
-to determine if they were elligible for a loan. I wanted to create an app that would make the user experience as easy as possible by using CLI. In order to maintain the stability of the app I needed to modulize the app.  In In this READme, I will outline  what inspired me to do this project along with the different attributes that make this app so successfull. 
+to determine if they were elligible for a loan. I wanted to create an app that would make the user experience as easy as possible by using CLI. In order to maintain the stability of the app I needed to modulize the app.  In In this READme, I will outline what inspired me to do this project along with the different attributes that make this app so successfull. 
 
 *Software Requirments:*
-Python package installed. 
-instll fire and questionary to local. 
+<Python package installed.>
+<instll fire and questionary to local.> 
 
-The key to making this app was to make it as user friendly and time sensitive for the user as much as possible. The main problem that inspired me to do this was the lack of user friendly financial interfaces on the market that gave the user a qick answer for a loan approval
-
-As a young professional I have slowly been more interetested in my financials. One problem that always seem to occur for me personaly was applying for a loan. Not so much how to aapply but the steps banks use to verify and accept an application. I wanted to come up with a user friendly CLI. In order to do that I needed to import Fire and Questionary.
-
-Pip instal (snipett)
-
-So i needed to come up with a user story that would allow me get straight to the point: I wanted to create a tool that would allow a user, in this case a lender,  to to determine if a certain applicaant was approved for a loan and if so which loan.   The main problem that inspired me to do this was the lack of user friendly financial interfaces on the market that gave the user a qick answer for a loan approval. This tool needed to be cost friendly for them and affordable for the developer to make. After much time and planning I came up with my very own Loan Financial Qualifying program. This program allows a user to input a list of variables at which the end lets the user know a list of potential qualififying loans the applicant is approved for. Alas if the user is flaged a negative response the program will not provide a list of loans available for the user. 
-
-
+As a young professional I have slowly been more interetested in my financials. The key to making this app was to make it as user friendly as possible. The main problem that inspired me to do this was the lack of user-friendly financial interfaces on the market that could gave the user a qick answer for a loan approval. With this tool a user can easily manage, locate and source possible loans given by a list of poplular banking institutions. 
 
 ---
-
 ## Technologies
-
-
 
 Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
 
 The program is made on python version 3.9.12. The libraries included in the project are Fire and Questionary and import pathlib. The operating system is Windows 10. The programing interfaces used for writing code was VS code. You can run the code by running the file *app.py* in your terminal. The recommend running Gitbash in order to run the file but the provided termainal in VS code is just as good. 
 
 ##Modulizing##
- It was important for me to keep this app running as smooth as possible and in order to do that I had to modulize it.  Modulizing is done by placing pieces of code into different modules or python files(.py files) which allows the application to run as one, by importing code or calculations from different modules.  By doing this enables the code to stay intact, reduce the headache of re-writing code and creates a cleaner, nice and neat work space.  I began modulizing my code by making two subfolders within the qualifier directory; filters and utils. These folders house the brunt of the coding.  In each respected directories I inserted, and hashed out, in each .py file, a line of code at the top that says what the module does and its purpose in regards to how it interacts with the app.py file as a whole. Next I made a images and data folder, each in the loan_qualifier_app directory. The [images](images) folder houses all the images i used for the READme file. The [daily_rate_sheet.csv](data) holds the *daily_rate_sheet.csv*
+It was important for me to keep this app running as smooth as possible and in order to do that I had to modulize it.  Modulizing is done by placing pieces of code into different modules or python files(.py files) which allows the application to run as one, by importing code or calculations from different modules.  By doing this enables the code to stay intact, reduce the headache of re-writing code and creates a cleaner, nice and neat work space.  I began modulizing my code by making two subfolders within the qualifier directory; filters and utils. These folders house the brunt of the coding.  In each respected directories I inserted, and hashed out, in each .py file, a line of code at the top that says what the module does and its purpose in regards to how it interacts with the app.py file as a whole. Next I made a images and data folder, each in the loan_qualifier_app directory. The [images](images) folder houses all the images i used for the READme file. The [daily_rate_sheet.csv](data) holds the *daily_rate_sheet.csv*
 
  ##What is CLI?##
 In order to ensure userability It was important for me to makes the applicatino run as smoothly and operateable as possible. 
