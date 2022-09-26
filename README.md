@@ -50,11 +50,11 @@ Please install *pip install questionary* and *pip install fire*. You need these 
 Asumming you have python and anaconda installed your next step is to activate your dev environment. First go ahead and open the Gitbash terminal in VS code. Type *conda activate* and then *conda activate dev* . ![Activate Dev environment.](images/conda_activate_dev.png)
 This will let the computer know that you want to be in a developer enviroment in your terminal. As a developer you can runs scripts of code, import library and dependencies and much more.  
 
-Next you will need two libraries installed in order to run app.py; Fire and Questionary. Take a look at the screen shot to see how I have them installed. 
-![Install Questionary.](../challenge-2/Ch  loan_qualifier_app/images/install_questionary.png)
+Next you will need two libraries installed in order to run app.py; Fire and Questionary. Take a look at the screen shot below to see how I installed them in order.  
+![Install Questionary.](/Challenge_2/loan_qualifier_app/Images/install_questionary.png)
 
 Install Fire
-![Install Fire](images/install_fire.png)
+![Install Fire](/Challenge_2/loan_qualifier_app/Images/install_fire.png)
 
 ---
 
@@ -62,16 +62,15 @@ Install Fire
 This section should include screenshots, code blocks, or animations explaining how to use your project.Now its time to run the script. 
 
 
+In gitbash or your terminal navigate to your present working directory where your app.py file is located. In this example the app.py file is located in the loan_qualifier_app directory. Next, in the Command line Interface, in your terminal,  type *python app.py*
 
-In gitbash or your terminal navigate to your present working directory where your app.py file is located. In this example the app.py file is located in the loan_qualifter_app folder. Next on the commany line in your terminal type *python app.py*
+This is how it should look ![running python app.py in Gitbash terminal within VS code](/Challenge_2/loan_qualifier_app/Images/running_python_app.png)
 
-This is how it should look ![running python app.py in Gitbash terminal within VS code](images/running_python_app.png)
+Next, a question will appear and prompt you to type (copy and paste, if it's easier) the csv file path for the daily_rate_sheet. 
 
-Next, a question will appear and prompt you to type (or copy and paste, if easier) the csv file path for the daily_rate_sheet. 
+Here is a screen shot of how many loans you may qualify for with a credit score of 700, a monthly debt of 100, total monthly income of 4500, desired loan amount of 50000 and your home value of 400000. ![running script](/Challenge_2/loan_qualifier_app/Images/app.png)
 
-Here is a screen shot of how many loan you may qualify for with a credit score of 700, a monthly debt of 100, total monthly income of 4500, desired loan amount of 50000 and your home value of 400000. ![running script](images/app.png)
-
-In this example I had 11 qualifying loans. This data could change though if you were to change certain peramiters. For example if i changed the credit score to 500 and kept all the other paraments the same i would get the following results. ![new running script](images/adjust_run_app.png). As you can see from the photo with a credit score of 500 and the same parameters for the four other filters, I am now qualified for zero loans. Pretty cool!
+In this example I had 11 qualifying loans. This data could change though if you were to change certain peramiters. For example if the I changed the credit score to 500 and kept the the rest of the parameters the same from the previous example, I would get the following results. ![new running script](/Challenge_2/loan_qualifier_app/Images/adjust_run_app.png). As you can see from the photo,  with a credit score of 500 I am now qualified for zero loans. Pretty cool right!
 
 
 ---
@@ -85,3 +84,5 @@ I am the sole contributor for this project. all scripts and promts were coded by
 ## License
 
 When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+
+All rights are reserved. MIT. No part of this code may be reproduced, distributed, or transmitted in any form by any means without prior written permission of the publisher. 
