@@ -16,10 +16,7 @@
 As a application manager for a local fintech startup I wanted to create an app that would allow borrowers the ability 
 to determine if they were elligible for a loan. I wanted to create an app that would make the user experience as easy as possible by using CLI. In order to maintain the stability of the app I needed to modulize the app.  In In this READme, I will outline  what inspired me to do this project along with the different attributes that make this app so successfull. 
 
-this is a test
 
-
-This is a test 2. 
 
 
 
